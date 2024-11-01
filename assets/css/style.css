@@ -1,0 +1,46 @@
+/* style.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( #00d9ff, #009ee7);
+    font-family: mont;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.data {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: #ffffff;
+
+}
+
+
+
+
+
+@font-face{
+    font-family: mont;
+    src: url(../css/Montserrat-Regular.otf);
+    
+  }
